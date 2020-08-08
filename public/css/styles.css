@@ -1,0 +1,30 @@
+h1{
+    color: black;
+    font-size: 50px;
+}
+img{
+    margin-top: 20px;
+    width: 200px;
+    height: 200px;
+    margin-left: 50px;
+    
+}
+body{
+   /* margin-left: 50px; */
+    max-width: 650px;
+    margin: 0 auto;
+    
+}
+footer{
+    border-top: 1px solid grey;
+    margin-top: 200px;
+}
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+a {
+    color: #888888;
+    margin-right: 16px;
+    text-decoration: none;
+}
