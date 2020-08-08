@@ -4,7 +4,7 @@ const hbs = require('hbs')
 const geocode = require('./geocode')
 const forecast = require('./forecast')
 const request = require('request')
-
+const port = process.env.PORT || 3000
 
 const app = express()
 
@@ -119,6 +119,6 @@ app.get('*',(req,res)=>{
 // the help and about are the pages that is requested by the user.
 
 // setting the server and providing the port number 
-app.listen(3000, ()=>{
-    console.log('server set up correctly')
+app.listen(port, ()=>{
+    console.log('server set up correctly @ '+port)
 })
